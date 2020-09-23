@@ -1,0 +1,31 @@
+:root{
+    --dongkermuda: #5c627b;
+    --dongker: #323544;
+    --dongkertua: #232635;
+    --lightbrown: #ac7151;
+}
+
+#brand{
+    margin-left: -15px;
+    margin-top: 15px;
+}
+
+body{
+    background-color: var(--dongker);
+    font-family: 'poppins', serif;
+}
+li a, #brand{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+a {
+    color: var(--dongkermuda);
+    text-decoration: none;
+    background-color: transparent;
+  }
+
+a:hover {
+    color: var(--lightbrown);
+    text-decoration: none;
+  }

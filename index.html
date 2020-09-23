@@ -7,53 +7,85 @@
   
     <!-- Main CSS-->
     <link rel="stylesheet" href="main.css">
+
+    <!-- Secondary CSS-->
+    <link rel="stylesheet" href="secondary.css">
     <title>Home | Matahari Ramadhan</title>
 
     <!-- Font awesome kit's code -->
     <script src="https://kit.fontawesome.com/4d52e557eb.js" crossorigin="anonymous"></script>
+
+    <!--google fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=poppins">
   </head>
   <body>
-    <!--Navbar-->
     <div class="container">
-      <nav class="nav justify-content-end">
-        <ul class="nav ">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Project</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+      <!--Row 1-->
+      <!--Navbar-->
+      <div class="row justify-content-sm-between">
+        <div class="col-sm-4 d-sm-none" id="brand">
+          <img src="/Web/Images/Rectangle 1.png" alt="">
+          <a href="#">Home</a>
+        </div>
+        <div class="col-sm-4 col-lg-4">
+          <nav class="navbar navbar-expand-sm">
+            <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navbar-menu">
+              <span>
+                <img src="/Web/Images/Menu Icon.png" alt="">
+              </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-menu">
+              <ul class="navbar-nav">
+                <li class="nav-item m-auto">
+                  <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item m-auto">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item m-auto">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item m-auto"> 
+                  <a class="nav-link" href="#">Project</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
 
-    <!-- Main section-->
-    <section>
-      <img src="/Web/Images/Photo.png" alt="Matahari Ramdhan's photo">
-        <div class="container">
+      <!--Row 2-->
+      <!-- Main section-->
+      <div class="row">
+        <div class="col-sm-12 col-lg-8">
+          <div class="text-center">
+            <img src="/Web/Images/Photo.png" alt="Matahari Ramdhan's photo">
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-4 text-white">
+          <div class="tulisan">
           <h1>Matahari Ramadhan</h1>
           <p>	Hi, My name is Matahari Ramadhan. I’m  front-end web developer. I build website with html 5, CSS3 and Javacript and other framework, also I can design  it for you with a great design as you wish.</p>
           <a href="#">More about me <img src="/Web/Images/Arrow.png"></a>
+          </div>
         </div>
-    </section>
-    
-    <!-- Social media section -->
-    <div class="container">
-      <section class="" id="social-media">
-        <a href="#"><i class="fab fa-whatsapp"></i></a>
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-      </section>
-    </div>
-    
+      </div>
 
+      <!--Row 3-->
+      <!-- Social media section -->
+      <div class="row">
+        <div class="col-sm-12 col-lg-4">
+          <section class="" id="social-media">
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </section>
+        </div>
+      </div>
+    </div>
+
+  
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
